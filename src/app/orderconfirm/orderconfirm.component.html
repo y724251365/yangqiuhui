@@ -1,0 +1,16 @@
+<app-header></app-header>
+<div id="navlist">
+    <ul>
+        <li class="navlist_blue_left"></li>
+        <li routerLink="/orderConfirm/one" class="navlist_blue">确认订单信息</li>
+        <li class="navlist_blue_arro"><canvas id="canvas_blue" width="20" height="38"></canvas>
+        </li>
+        <li  routerLink="/orderConfirm/two" class="navlist_gray">支付订单<b></b></li>
+        <li class="navlist_gray_arro"><canvas id="canvas_gray" width="20" height="38"></canvas>
+        </li>
+        <li routerLink="/orderConfirm/three" class="navlist_gray">支付完成<b></b></li>
+        <li class="navlist_gray_right"></li>
+    </ul>
+</div>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
